@@ -82,7 +82,7 @@ public class TravelInsuranceTest extends Driver {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Application", "PolicyBazaar");
-        extent.setSystemInfo("TravelInsurance", "Pushkar Kumar");
+        extent.setSystemInfo("TravelInsurance", "Tejasri");
         extent.setSystemInfo("User Name", System.getProperty("user.name"));
         extent.setSystemInfo("Environemnt", "QA");
     }

@@ -23,7 +23,7 @@ public class Driver {
 	@BeforeClass(groups = { "sanity" })
 	public WebDriver setup() throws IOException {
 		// loading properties file
-		FileReader file = new FileReader(System.getProperty("user.dir") + "\\src\\test\\resources\\TestData\\config.properties");
+		FileReader file = new FileReader(System.getProperty("user.dir") + "\\src\\test\\resources\\config.properties");
 		p = new Properties();
 		p.load(file);
 

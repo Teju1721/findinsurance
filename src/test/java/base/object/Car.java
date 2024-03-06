@@ -106,9 +106,9 @@ public class Car extends Driver {
 	 public void clickCaptureEmail_Error()
 	 {
 		
-		 System.out.println("---------------------------Error Message---------------------------------");
+		System.out.println("---------------------------Error Message---------------------------------");
  		System.out.println();
- 		System.out.println("-----------Email Id Error---------------");
+ 		System.out.println("--------------------------Email Id Error---------------------------------");
  	
 	 }
 	 
